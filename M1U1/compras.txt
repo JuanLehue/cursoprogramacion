@@ -2,3 +2,6 @@ heladera
 television 
 sillon
 pochoclos
+peliculas
+coca
+fernet
