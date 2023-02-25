@@ -1,0 +1,71 @@
+/* Estp es mi archivo de diseño en css */
+
+.border-dashed {
+  border-style: dashed;
+  display: inline-flex;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.bg-gray {
+  background-color: gray;
+  display: inline-flex;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.bg-shadow {
+  filter: drop-shadow(0px 0px 48px #000000);
+  -webkit-filter: drop-shadow(0px 0px 48px #000000);
+  -moz-filter: drop-shadow(0px 0px 48px #000000);
+}
+
+.font-arial {
+  font-family: arial;
+}
+
+.fotocarnet {
+  transform: translate(80px, 0px);
+  -webkit-transform: translate(80px, 0px);
+  -moz-transform: translate(80px, 0px);
+}
+
+h1 {
+  background: #c3bbbb;
+  background: linear-gradient(200deg, #c3bbbb 0%, #434040 80%);
+  background: -webkit-linear-gradient(200deg, #c3bbbb 0%, #434040 80%);
+  background: -moz-linear-gradient(200deg, #c3bbbb 0%, #434040 80%);
+  text-align: center;
+  font-family: Verdana;
+  font-size: 40px;
+  font-weight: bold;
+  -webkit-text-stroke: 1px white;
+}
+
+.text-17 {
+  font-size: 17px;
+}
+
+.text-20 {
+  font-size: 20px;
+}
+
+.text-32 {
+  font-size: 32px;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-blue {
+  color: blue;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-border {
+  -webkit-text-stroke: 2px white;
+}
