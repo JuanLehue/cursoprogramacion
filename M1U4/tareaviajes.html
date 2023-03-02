@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      viaje = parseInt(
+        prompt("Cuantos metros de distancia es el viaje a realizar?", "")
+      );
+
+      if (viaje > 0 && viaje < 1000) {
+        document.write(`Deberia realizar el viaje a pie`);
+      } else if (viaje >= 1000 && viaje < 10000) {
+        document.write(`Deberia realizar el viaje en bicicleta`);
+      } else if (viaje >= 10000 && viaje < 30000) {
+        document.write(`Deberia realizar el viaje en colectivo`);
+      } else if (viaje >= 30000 && viaje < 100000) {
+        document.write(`Deberia realizar el viaje en auto`);
+      } else {
+        document.write(`Deberia realizar el viaje en avion`);
+      }
+    </script>
+  </body>
+</html>

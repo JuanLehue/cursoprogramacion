@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const numeros = [
+        123, 21312, 4321321, 324, 2342, 43123, 4213, 434, 4341413, 543534,
+        43453, 5435635, 3453, 67678878, 5435, 13423545,
+      ];
+
+      let mayor = numeros[0];
+
+      let i = 1;
+
+      while (i < numeros.length) {
+        if (numeros[i] > mayor) {
+          mayor = numeros[i];
+        }
+
+        i++;
+      }
+
+      console.log(`El numero mayor es el ${mayor}`);
+      document.write(`El numero mayor es el ${mayor}`);
+    </script>
+  </body>
+</html>
