@@ -1,0 +1,12 @@
+.contenedor {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-evenly;
+}
+
+.formulario {
+  display: inline-flex;
+  flex-direction: column;
+  width: 40%;
+}
